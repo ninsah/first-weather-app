@@ -1,0 +1,140 @@
+.button {
+  background-color: #868afa;
+  color: white;
+  font-weight: bolder;
+  border-radius: 50px;
+  width: 220px;
+  height: 95px;
+  border: transparent;
+  cursor: pointer;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 28px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.search {
+  width: 1000px;
+  height: 95px;
+  font-size: 30px;
+  border: #d7d8fd;
+  border-radius: 2px;
+  border-style: solid;
+  background-color: #f7f7ff;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  padding-left: 15px;
+  font-family: monospace;
+}
+
+.weather-widget {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica,
+    Arial, sans-serif, Inv Maison Neue, Apple Color Emoji, Segoe UI Emoji,
+    Segoe UI Symbol, Aktiv Grotesk;
+  padding: 100px;
+  max-width: 1340px;
+  margin: 50px auto;
+  border: solid 1px rgb(244, 237, 237);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+img {
+  height: 80px;
+  align-items: center;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.weatherimage {
+  height: 111px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+
+div.col {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.fixed-width-col {
+  width: 50%;
+}
+
+h5 {
+  text-align: right;
+}
+
+.card h2 {
+  font-size: 50px;
+  font-weight: 600;
+  align-items: center;
+  line-height: 110px;
+}
+
+.card h1 {
+  font-size: 13rem;
+  font-weight: 690;
+  text-align: right;
+  padding-top: 45px;
+  color: black;
+}
+
+.card time {
+  font-weight: bold;
+  color: rgb(151, 146, 146);
+  font-size: 32px;
+}
+
+.card-deck .card {
+  font-size: 4rem;
+  border: transparent;
+}
+
+.center-text {
+  text-align: center;
+  font-size: 40px;
+}
+
+i {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bolder;
+  font-style: normal;
+}
+
+.hightemp {
+  font-weight: bold;
+  color: darkorange;
+  font-size: 22px;
+}
+
+.lowtemp {
+  font-weight: lighter;
+  color: lightsalmon;
+  font-size: 22px;
+}
+
+.weekday {
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+}
+
+.currenttemp {
+  font-size: 80px;
+}
+
+.card .col-left {
+  width: 200px;
+  padding-left: 55px;
+}
